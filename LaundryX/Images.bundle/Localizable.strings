@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  Feed
+
+  Created by Ahmed Abu Shammala on 7/31/17.
+  Copyright © 2017 Amane Qasem. All rights reserved.
+*/
+"Add Location"="إضافة موقع";
+"Chat"="الدردشة";
+"All Products"="جميع الهدايا";
+"Categories"="التصنيفات";
+"Sign Up"="التسجيل";
+"Sign Up with email"="التسجيل من خلال البريد الالكتروني";
+"Sign In"="تسجيل الدخول";
+"Pull to refresh to fetch more"="اسحب للتحديث";
+"check your internet connection"="تأكد من اتصالك بلإنترنت";
+"New Feed"="New Feed";
+"Map"="الخريطة";
+"Faild"="خطأ";
+"The Email field is required."="حقل البريد الالكتروني مطلوب.";
+"The password name field is required."="حقل كلمة المرور مطلوب.";
+"The email address you entered is invalid."="البريد الالكتروني المدخل خاطيء.";
+"Confirm"="تأكيد";
+"Preparing..."="تجهيز...";
+"SA_STR_TYPING"="جاري الكتابة...";
+"SA_STR_SENT_STATUS"="تم الإرسال";
+"SA_STR_SENDING_STATUS"="جاري الإرسال";
+"SA_STR_NOT_SENT_STATUS"="لم يتم الإرسال";
+"SA_STR_DELIVERED_STATUS"="تم الإستلام";
+"SA_STR_CANCEL"="إلغاء";
+"SA_STR_CALL"="اتصال";
+"SA_STR_LOADING_MESSAGES"="تحميل الرسائل";
+"SA_STR_MESSAGE_FAILED_TO_SEND"="فشل الإرسال";
+"SA_STR_TRY_AGAIN_MESSAGE"="إعادة الإرسال";
+"SA_STR_DELETE_MESSAGE"="حذف الرسالة";
+"SA_STR_SEEN_STATUS"="تمت المشاهدة";
+"SA_STR_READ_STATUS"="تمت القراءة";

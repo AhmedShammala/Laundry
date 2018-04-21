@@ -1,0 +1,146 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
+  - AKMaskField (2.0.3)
+  - Alamofire (4.5.0)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - CRToast (0.0.9)
+  - EVReflection (4.16.3):
+    - EVReflection/Core (= 4.16.3)
+  - EVReflection/Core (4.16.3)
+  - Fabric (1.6.12)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Messaging (4.0.4):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.4):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - ImageSlideshow (1.3.2):
+    - ImageSlideshow/Core (= 1.3.2)
+  - ImageSlideshow/Core (1.3.2)
+  - IQKeyboardManagerSwift (6.0.0)
+  - LUNTutorialViewController (1.0.0)
+  - MBProgressHUD (1.0.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PasswordTextField (1.0.4)
+  - Protobuf (3.3.0)
+  - RNActivityView (0.0.6)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SideMenu (2.3.3)
+  - SwiftMessages (4.1.1)
+  - SwiftyJSON (3.1.4)
+  - ViewAnimator (1.0.5)
+  - XLPagerTabStrip (8.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AKMaskField
+  - Alamofire
+  - Crashlytics
+  - CRToast (~> 0.0.7)
+  - EVReflection
+  - Fabric
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - ImageSlideshow
+  - IQKeyboardManagerSwift (from `https://github.com/hackiftekhar/IQKeyboardManager`)
+  - LUNTutorialViewController
+  - MBProgressHUD (~> 1.0.0)
+  - PasswordTextField
+  - RNActivityView
+  - SDWebImage (~> 3.8)
+  - SideMenu
+  - SwiftMessages (from `https://github.com/SwiftKickMobile/SwiftMessages.git`)
+  - SwiftyJSON
+  - ViewAnimator (from `https://github.com/marcosgriselli/ViewAnimator.git`)
+  - XLPagerTabStrip (from `https://github.com/xmartlabs/XLPagerTabStrip.git`)
+
+EXTERNAL SOURCES:
+  IQKeyboardManagerSwift:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+  SwiftMessages:
+    :git: https://github.com/SwiftKickMobile/SwiftMessages.git
+  ViewAnimator:
+    :git: https://github.com/marcosgriselli/ViewAnimator.git
+  XLPagerTabStrip:
+    :git: https://github.com/xmartlabs/XLPagerTabStrip.git
+
+CHECKOUT OPTIONS:
+  IQKeyboardManagerSwift:
+    :commit: 2d21eef0f74a7038a23897107f9e48b5fa2bfcaf
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+  SwiftMessages:
+    :commit: 5d6b00a21aa94b0233711566870ac6d019a75af5
+    :git: https://github.com/SwiftKickMobile/SwiftMessages.git
+  ViewAnimator:
+    :commit: 160e0410fc800769a8f339d002b9654447790ff3
+    :git: https://github.com/marcosgriselli/ViewAnimator.git
+  XLPagerTabStrip:
+    :commit: ce3a0034d3784c1ffaf30cd48bbd5ef6b10094f9
+    :git: https://github.com/xmartlabs/XLPagerTabStrip.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
+  AKMaskField: b6d147524813e62cd3f15475fa2200ce7a3d2620
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  EVReflection: 78a60b3c628a2e765652cdc554a903a3e40b16c8
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  ImageSlideshow: a68a76fc618ebd2b7481ce355ad67d7097203976
+  IQKeyboardManagerSwift: 624f128983eec795deacd50c1cd2f72664d13f08
+  LUNTutorialViewController: 37bbc0d3a0af976abc7289fd2ead9b25345fcd4a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
+  PasswordTextField: 1fccb24dd769cfc963f1f60cb9fece692ad40530
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
+  RNActivityView: 889126dc047fc6fa10aac88a13ebff677c53bf82
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SideMenu: a447554ae5c982e8077666389e1c8b0c8656e065
+  SwiftMessages: 71d1ef444556c56c4ae1467bab1cc50b08fd39a0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  ViewAnimator: d87d691fbcaf994db7ee8fc632afa3073bd3b851
+  XLPagerTabStrip: 441fba36e1c9d4677b4510048c7b8eb14b463f0f
+
+PODFILE CHECKSUM: 42c8d891afb86b2a37e21ab2f4107877d9f73c86
+
+COCOAPODS: 1.2.1

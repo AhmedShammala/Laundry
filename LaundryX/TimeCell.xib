@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="TimeCell" reuseIdentifier="TimeCell" id="gTV-IL-0wX" customClass="TimeCell" customModule="LaundryX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="101" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="101" height="81"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXH-kq-uhY">
+                        <rect key="frame" x="0.0" y="0.0" width="101" height="81"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday 11 Feb" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waG-nF-Rg7">
+                                <rect key="frame" x="6" y="30.5" width="89" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.32549019610000002" green="0.5568627451" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00 PM - 12:30 PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddl-QE-AK2">
+                                <rect key="frame" x="6" y="42.5" width="89" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" red="0.32549019610000002" green="0.5568627451" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="waG-nF-Rg7" firstAttribute="centerY" secondItem="ZXH-kq-uhY" secondAttribute="centerY" multiplier="0.9" id="5oY-34-5Z6"/>
+                            <constraint firstAttribute="trailing" secondItem="ddl-QE-AK2" secondAttribute="trailing" constant="6" id="5rb-wa-GKh"/>
+                            <constraint firstItem="ddl-QE-AK2" firstAttribute="leading" secondItem="ZXH-kq-uhY" secondAttribute="leading" constant="6" id="KoB-GI-tnN"/>
+                            <constraint firstAttribute="trailing" secondItem="waG-nF-Rg7" secondAttribute="trailing" constant="6" id="YAC-RD-hXS"/>
+                            <constraint firstItem="waG-nF-Rg7" firstAttribute="leading" secondItem="ZXH-kq-uhY" secondAttribute="leading" constant="6" id="eSW-Kj-ank"/>
+                            <constraint firstItem="ddl-QE-AK2" firstAttribute="top" secondItem="waG-nF-Rg7" secondAttribute="bottom" id="qrS-cx-Y3H"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZXH-kq-uhY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FQ1-qo-q3O"/>
+                <constraint firstItem="ZXH-kq-uhY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Wal-2o-LDz"/>
+                <constraint firstAttribute="bottom" secondItem="ZXH-kq-uhY" secondAttribute="bottom" id="dxw-Yv-yp4"/>
+                <constraint firstAttribute="trailing" secondItem="ZXH-kq-uhY" secondAttribute="trailing" id="fux-HK-neE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="101" height="81"/>
+            <connections>
+                <outlet property="BigView" destination="ZXH-kq-uhY" id="rcZ-eR-hmv"/>
+                <outlet property="Daylbl" destination="waG-nF-Rg7" id="4sr-Da-1bM"/>
+                <outlet property="Timelbl" destination="ddl-QE-AK2" id="1Wi-aj-Qrs"/>
+            </connections>
+            <point key="canvasLocation" x="59.5" y="69.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

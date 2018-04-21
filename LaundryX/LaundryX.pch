@@ -1,0 +1,17 @@
+//
+//  iOSTemplate.pch
+//  iOSTemplate
+//
+//  Created by Ahmed Abu Shammala on 7/4/17.
+//  Copyright © 2017 Ahmed Abu Shammala. All rights reserved.
+//
+
+#ifndef iOSTemplate_pch
+#define iOSTemplate_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Defines.h"
+
+#endif /* iOSTemplate_pch */
